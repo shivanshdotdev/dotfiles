@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=My Static Theme
+Description=Simple static image
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/mytheme
+ScriptFile=/usr/share/plymouth/themes/mytheme/mytheme.script

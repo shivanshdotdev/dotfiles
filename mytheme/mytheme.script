@@ -1,0 +1,8 @@
+wallpaper_image = Image("boot.png");
+screen_width = Window.GetWidth();
+screen_height = Window.GetHeight();
+
+resized_image = wallpaper_image.Scale(screen_width, screen_height);
+
+sprite = Sprite(resized_image);
+sprite.SetPosition(0, 0);
