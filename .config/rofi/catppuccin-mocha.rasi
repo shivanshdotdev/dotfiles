@@ -1,0 +1,143 @@
+* {
+    bg-col:       #1e1e2e;
+    bg-col-light: #313244;
+    border-col:   #89b4fa;
+    selected-col: #89b4fa;
+    blue:         #89b4fa;
+    fg-col:       #cdd6f4;
+    fg-col2:      #f38ba8;
+    grey:         #6c7086;
+    width:        620;
+    font:         "JetBrainsMono Nerd Font 14";
+}
+
+element-text, element-icon, mode-switcher {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+window {
+    height:           420px;
+    border:           2px;
+    border-color:     @border-col;
+    background-color: @bg-col;
+    border-radius:    20px;
+    padding:          10px;
+}
+
+mainbox {
+    background-color: transparent;
+    spacing:          10px;
+    padding:          10px;
+}
+
+inputbar {
+    children:         [prompt, entry];
+    background-color: @bg-col-light;
+    border-radius:    12px;
+    padding:          6px 10px;
+    border:           2px;
+    border-color:     @border-col;
+    margin:           0px 0px 6px 0px;
+}
+
+prompt {
+    background-color: @blue;
+    padding:          6px 12px;
+    text-color:       @bg-col;
+    border-radius:    8px;
+    margin:           2px 8px 2px 2px;
+    font:             "JetBrainsMono Nerd Font Bold 14";
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str:    ":";
+}
+
+entry {
+    padding:          6px 4px;
+    text-color:       @fg-col;
+    background-color: transparent;
+    placeholder:      "Search...";
+    placeholder-color: @grey;
+}
+
+separator {
+    border:       1px;
+    border-color: @bg-col-light;
+    margin:       0px 4px;
+}
+
+listview {
+    border:           0px;
+    padding:          4px 0px;
+    margin:           0px;
+    columns:          2;
+    lines:            5;
+    background-color: transparent;
+    spacing:          6px;
+    fixed-height:     true;
+}
+
+element {
+    padding:          8px 12px;
+    background-color: @bg-col-light;
+    text-color:       @fg-col;
+    border-radius:    10px;
+    spacing:          8px;
+    orientation:      horizontal;
+}
+
+element-icon {
+    size:             20px;
+    vertical-align:   0.5;
+}
+
+element-text {
+    vertical-align: 0.5;
+}
+
+element selected {
+    background-color: @selected-col;
+    text-color:       #111111;
+    border-radius:    10px;
+}
+
+mode-switcher {
+    spacing:          6px;
+    margin:           6px 0px 0px 0px;
+}
+
+button {
+    padding:          8px 16px;
+    background-color: @bg-col-light;
+    text-color:       @grey;
+    vertical-align:   0.5;
+    horizontal-align: 0.5;
+    border-radius:    8px;
+    border:           1px;
+    border-color:     transparent;
+}
+
+button selected {
+    background-color: @bg-col;
+    text-color:       @blue;
+    border-color:     @border-col;
+}
+
+message {
+    background-color: @bg-col-light;
+    margin:           4px 0px;
+    padding:          8px 12px;
+    border-radius:    10px;
+    border:           1px;
+    border-color:     @border-col;
+}
+
+textbox {
+    padding:          6px 12px;
+    text-color:       @blue;
+    background-color: transparent;
+    border-radius:    8px;
+}
