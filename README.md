@@ -1,16 +1,18 @@
-Disable the SecureBoot.
+Just put the content of the .config files in the .config folder of the current machine
 
-### Grub Theme
+# Disable the SecureBoot.
 
-sekiro-grub-theme: https://github.com/AbijithBalaji/sekiro_grub_theme
+# Grub Theme
 
-### Plymouth
+sekiro-grub-theme: [Here](https://github.com/AbijithBalaji/sekiro_grub_theme)
 
-`sudo cp -r mytheme/ /usr/share/plymouth/themes/`
+# Plymouth
 
-`sudo plymouth-set-default-theme -R mytheme`
+1 - `sudo cp -r mytheme/ /usr/share/plymouth/themes/`
 
-`sudo update-initramfs -u`
+2 - `sudo plymouth-set-default-theme -R mytheme`
 
-Reboot
+3 - `sudo update-initramfs -u`
+
+4 - Reboot
 
