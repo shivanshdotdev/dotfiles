@@ -1,4 +1,4 @@
-Just put the content of the .config files in the .config folder of the current machine
+Just put the `.config` files/directories in the `.config` directory of the current machine
 
 # Disable the SecureBoot.
 
