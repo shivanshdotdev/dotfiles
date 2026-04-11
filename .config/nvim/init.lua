@@ -10,6 +10,7 @@ vim.opt.wrap = false
 vim.opt.swapfile = false
 vim.opt.termguicolors = true
 require("config.lazy")
+require("config.keymaps")
 
 -- disable netrw at the very start of your init.lua
 vim.g.loaded_netrw = 1
