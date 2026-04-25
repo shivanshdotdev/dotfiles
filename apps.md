@@ -18,8 +18,8 @@
 - wget
 - xdotool
 - cargo 
-- - `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh` && `source ~/.cargo/env`
-- - `cargo install tree-sitter-cli`
+  - `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh` && `source ~/.cargo/env`
+  - `cargo install tree-sitter-cli`
 
 ### GUI Apps
 - alacritty
