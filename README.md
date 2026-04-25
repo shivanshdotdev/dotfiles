@@ -16,3 +16,7 @@ sekiro-grub-theme: [Here](https://github.com/AbijithBalaji/sekiro_grub_theme)
 
 4 - Reboot
 
+# Saving the apps in list
+
+`snap list >> snap_packages.md`
+`apt-mark showmanual >> apt_packages.md`
