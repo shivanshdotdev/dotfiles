@@ -58,6 +58,7 @@
 - maven
 - mpv
 - neofetch
+- numlockx
 - obs-studio
 - okular
 - openjdk-21-jdk

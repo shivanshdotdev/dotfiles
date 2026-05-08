@@ -6,7 +6,12 @@ map("i", "jk", "<Esc>", { desc = "Exit insert mode" })
 
 -- Example: Add other common maps here
 map("n", "<leader>nh", ":nohlsearch<CR>", { desc = "Clear search highlights" })
---
+
+map("n", "<leader>w", "<cmd>w<CR>", { desc = "Save file" })
+map("n", "<leader>W", "<cmd>wq<CR>", { desc = "Save file and quit" })
+map("n", "<leader>q", "<cmd>q<CR>", { desc = "Quit" })
+map("n", "<leader>Q", "<cmd>q!<CR>", { desc = "Force quit" })
+
 -- Move text up and down
 map("v", "J", ":m '>+1<CR>gv=gv")
 map("v", "K", ":m '<-2<CR>gv=gv")
@@ -15,7 +20,16 @@ map("v", "K", ":m '<-2<CR>gv=gv")
 map("v", "<C-S-j>", ":t '> <CR>gv", { desc = "Duplicate selection down" })
 map("v", "<C-S-k>", ":t '< -1<CR>gv", { desc = "Duplicate selection up" })
 
+-- Open diagnostic float (standard behavior: closes on cursor move)
+map('n', '<leader>df', vim.diagnostic.open_float, { desc = "Toggle Diagnostic Float" })
 
 
+map("n", "<leader>do", function()
+  vim.diagnostic.setloclist({ open = true })
+end, { desc = "Open diagnostics panel" })
+
+map("n", "<leader>dc", "<cmd>lclose<CR>", {
+  desc = "Close diagnostics panel"
+})
 
 
