@@ -7,7 +7,8 @@
 ## MUST TO-DO
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 - [visualising data structures and algorithms through animation - VisuAlgo](https://visualgo.net/en)
-
+- [Computer Fundamentals Tutorials](https://www.geeksforgeeks.org/computer-science-fundamentals/computer-fundamentals-tutorial/)
+- [Backend Development Path](https://www.boot.dev/paths/backend?tech=python-golang)
 
 ### Bookmarks
 - [dev.to](https://dev.to/)
