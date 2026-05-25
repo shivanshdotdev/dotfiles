@@ -1,4 +1,8 @@
-Just put the `.config` files/directories in the `.config` directory of the current machine
+Quick Clone
+```
+cd ~
+git clone https://github.com/shivanshdotdev/dotfiles.git
+```
 
 # Disable the SecureBoot.
 
