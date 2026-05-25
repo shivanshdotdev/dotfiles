@@ -1,17 +1,18 @@
 alias logout="i3-msg exit"
 alias q="exit"
-alias c="clear"
 alias gtw="cd /mnt/windows/Users/shiva/Desktop"
 alias ctc="xclip -selection clipboard"
+alias ccp="pwd | ctc"
 alias fd="fdfind"
-alias vim="nvim"
-alias vi="nvim"
+alias ff="nvim -c 'Telescope find_files'"
 
 alias sleep="systemctl suspend"
-alias fixaudio="systemctl --user restart wireplumber"
 
 alias editi3="cd ~/.config/i3/configurations/ && la"
 alias editzsh="cd ~/.config/zsh && la"
+alias setmooc="~/scripts/mooc-setup.sh"
+alias mirror_display="xrandr --output HDMI-1 --same-as eDP-1"
+alias run="python3"
 
 alias ls='eza --icons --group-directories-first'
 alias ll='eza -lh --icons --git --group-directories-first'
@@ -21,6 +22,8 @@ alias bat="batcat"
 
 alias find="fdfind | fzf"
 alias gtn="cd ~/Documents/Obsidian-Notes/Programming/ && git status"
+alias moocex="cd ~/snap/code/232/.local/share/tmc/vscode/mooc-java-programming-i/"
+alias javaprac="cd ~/Documents/Java-MOOC/Java-Programming-1"
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
