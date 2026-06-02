@@ -31,6 +31,12 @@
 - [Exercism](https://exercism.org/tracks)
 - [Bash exercises on Exercism](https://exercism.org/tracks/bash/exercises)
 
+### Stuff To Read
+- [Code Crafters](https://codecrafters.io/)
+- [The Architecture of OSS Book | aosa books](https://aosabook.org/en/)
+- [Destroy All Softwares](https://www.destroyallsoftware.com/screencasts)
+- [Hypermedia Systems](https://hypermedia.systems/book/contents/)
+
 ### DSA
 - [DSA Sheet by Love Babbar - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/#arrays)
 - [450 DSA Cracker](https://450dsa.com/array)

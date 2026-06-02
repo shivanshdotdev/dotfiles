@@ -9,7 +9,7 @@
     frame_width = 2
     frame_color = "#cba6f7"
     gap_size = 5
-    font = CaskaydiaCove Nerd Font Mono 12
+    font = JetBrainMono Nerd Font Mono 12
     line_height = 4
     markup = full
     format = "<b>%s</b>\n%b"
