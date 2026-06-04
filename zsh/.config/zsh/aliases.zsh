@@ -12,6 +12,7 @@ alias editi3="cd ~/.config/i3/configurations/ && la"
 alias editzsh="cd ~/.config/zsh && la"
 alias setmooc="~/scripts/mooc-setup.sh"
 alias mirror_display="xrandr --output HDMI-1 --same-as eDP-1"
+alias second_display_only="xrandr --output eDP-1 --off --output HDMI-1"
 alias run="python3"
 
 alias ls='eza --icons --group-directories-first'

@@ -38,6 +38,25 @@ rj(){
     javac $1 && java ${1%.*}
 }
 
+makejf(){
+    touch "$1.java"
+
+    if [[ "$2" == "--main" ]]; then
+        echo "
+public class $1{
+    public static void main(String[] args){
+
+    }
+}" > $1.java
+
+    else
+        echo "
+public class $1{
+
+}" > $1.java
+    fi
+}
+
 animated_wallpaper(){
     xwinwrap -fs -fdt -ni -b -nf -ov -- mpv -wid WID --loop --no-audio $1
 }
