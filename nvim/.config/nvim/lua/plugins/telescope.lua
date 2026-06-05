@@ -12,6 +12,9 @@ return {
     require("telescope").setup({
       defaults = {
         preview = true,
+        file_ignore_patterns = {
+            "%.class$",
+        },
         buffer_previewer_maker = function(filepath, bufnr, opts)
           opts = opts or {}
           -- Disable filetype detection to prevent syntax highlighting/Treesitter in preview
