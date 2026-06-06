@@ -6,6 +6,25 @@ edit-espanso() {
     esac
 }
 
+jccp() {
+    cd "$(xclip -selection clipboard -o)"
+    clear
+    ls
+}
+
+ide() {
+    # Start a new tmux session named "workspace", but don't attach to it yet
+    tmux new-session -d -s workspace
+
+    tmux rename-window -t workspace:1 'nvim'
+
+    tmux new-window -t workspace:2 -n 'terminal'
+    
+    tmux select-window -t workspace:1
+    
+    tmux attach-session -t workspace
+}
+
 dotfiles() {
     cp -r $1 ~/Documents/dotfiles/
 }

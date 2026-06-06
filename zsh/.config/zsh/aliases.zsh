@@ -3,6 +3,7 @@ alias q="exit"
 alias gtw="cd /mnt/windows/Users/shiva/Desktop"
 alias ctc="xclip -selection clipboard"
 alias ccp="pwd | ctc"
+
 alias fd="fdfind"
 alias ff="nvim -c 'Telescope find_files'"
 
