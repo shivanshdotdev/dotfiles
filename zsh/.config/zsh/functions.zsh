@@ -12,6 +12,14 @@ jccp() {
     ls
 }
 
+gcp(){
+    git add . && git commit -m "$1" && git push
+}
+
+dsatime(){
+    termdown $1 -a -e && notify-send -u critical "$1 Over" "If not done, Time to check for the hints"
+}
+
 ide() {
     # Start a new tmux session named "workspace", but don't attach to it yet
     tmux new-session -d -s workspace
@@ -27,10 +35,6 @@ ide() {
 
 dotfiles() {
     cp -r $1 ~/Documents/dotfiles/
-}
-
-external-display-only() {
-    xrandr --output eDP-1 --off --output $1 --auto
 }
 
 sop(){ 
@@ -51,6 +55,7 @@ cdj() {
     cd "$dir"
     clear
     ls
+    ccp
 }
 
 rj(){
