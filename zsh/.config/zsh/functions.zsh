@@ -28,6 +28,8 @@ ide() {
 
     tmux new-window -t workspace:2 -n 'terminal'
     
+    tmux new-window -t workspace:3 -n 'timer'
+
     tmux select-window -t workspace:1
     
     tmux attach-session -t workspace
