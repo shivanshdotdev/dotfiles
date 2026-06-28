@@ -2,12 +2,12 @@ configuration {
     modi:                  "drun,run,window,combi,calc:qalc -t";
     kb-mode-next:          "Control+Tab";
     kb-mode-previous:      "Control+Shift+Tab";
-    icon-theme:            "Oranchelo";
+    icon-theme:            "Papirus,Oranchelo,hicolor";
     show-icons:            true;
     terminal:              "alacritty";
     drun-display-format:   "{icon} {name}";
     location:              0;
-    disable-history:       false;
+    disable-history:       true;
     hide-scrollbar:        true;
     display-drun:          " 🚀  Apps ";
     display-run:           " 🏃  Run ";

@@ -25,6 +25,7 @@
 - [Projects - Google Docs](https://docs.google.com/document/d/1W1-M1Pe0Soy1tqyVUkPQE6ao07nMwxK-wKbGBDHLv9I/edit?tab=t.0#heading=h.jlyuqkxar99t)
 - [Things To Learn - Google Docs](https://docs.google.com/document/d/1WPOlqh9J17fi-yiK8XKqeyHCYvyplrTPT5qoI7LAtUY/edit?tab=t.0#heading=h.x0iib41pro1z)
 - [Google Pro Tip: Use Back-of-the-envelope-calculations to Choose the Best&nbsp;Design - High Scalability -](https://highscalability.com/google-pro-tip-use-back-of-the-envelope-calculations-to-choo/)
+- [Macro Behler Guides](https://www.marcobehler.com/)
 
 ### Learning
 - [Codédex | Learn Lua](https://www.codedex.io/lua)
@@ -36,6 +37,7 @@
 - [The Architecture of OSS Book | aosa books](https://aosabook.org/en/)
 - [Destroy All Softwares](https://www.destroyallsoftware.com/screencasts)
 - [Hypermedia Systems](https://hypermedia.systems/book/contents/)
+- [CyberSecurity mooc.fl](https://cybersecuritybase.mooc.fi/)
 
 ### DSA
 - [DSA Sheet by Love Babbar - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/#arrays)
@@ -43,8 +45,11 @@
 - [DSA Patterns - Google Docs](https://docs.google.com/document/d/1Noc_h9uc41qlzA5WL-B8KrMzjpUSbSDMvDAwbaWKLrU/edit?tab=t.0)
 - [Data Structures Roadmap 3 months - Google Docs](https://docs.google.com/document/d/1jP2rsfk3a6hISQ7kMZ_nuh_gokd2Jmtif3O0IEUmWqc/edit?tab=t.0)
 
+### For Later
+- [Full Stack Open on mooc.fl](https://fullstackopen.com/en/)
+
 ### Social Media
-- [YT Studio](https://studio.youtube.com/channel/UCSPCgqeygz6My7Me7wiBSwg
+- [YT Studio](https://studio.youtube.com/channel/UCSPCgqeygz6My7Me7wiBSwg)
 - [Instagram](https://www.instagram.com/shivanshdotdev/)
 - [Facebook](https://www.facebook.com/profile.php?id=61588269033670)
 - [LinkedIN](https://www.linkedin.com/in/shivansh-shukla-07834a3b0/)

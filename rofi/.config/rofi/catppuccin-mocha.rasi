@@ -73,7 +73,7 @@ listview {
     border:           0px;
     padding:          4px 0px;
     margin:           0px;
-    columns:          2;
+    columns:          1;
     lines:            5;
     background-color: transparent;
     spacing:          6px;
