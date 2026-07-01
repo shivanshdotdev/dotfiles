@@ -6,12 +6,6 @@ edit-espanso() {
     esac
 }
 
-jccp() {
-    cd "$(xclip -selection clipboard -o)"
-    clear
-    ls
-}
-
 gcp(){
     git add . && git commit -m "$1" && git push
 }
@@ -20,19 +14,30 @@ dsatime(){
     termdown $1 -a -e && notify-send -u critical "$1 Over" "If not done, Time to check for the hints"
 }
 
-ide() {
-    # Start a new tmux session named "workspace", but don't attach to it yet
-    tmux new-session -d -s workspace
+dsa() {
+    tmux new-session -d -s dsa -c ~/dsa -n 'nvim'
 
-    tmux rename-window -t workspace:1 'nvim'
+    tmux new-window -t dsa:2 -c ~/dsa -n 'terminal'
 
-    tmux new-window -t workspace:2 -n 'terminal'
-    
-    tmux new-window -t workspace:3 -n 'timer'
+    tmux new-window -t dsa:3 -c ~/dsa -n 'timer'
 
-    tmux select-window -t workspace:1
-    
-    tmux attach-session -t workspace
+    tmux select-window -t dsa:1
+
+    tmux attach-session -t dsa
+}
+
+spring(){
+    TARGET_DIR=~/spring
+
+    tmux new-session -d -s spring -c "$TARGET_DIR" -n 'nvim'
+
+    tmux new-window -t spring:2 -c "$TARGET_DIR" -n 'server'
+
+    tmux split-window -h -c $TARGET_DIR
+
+    tmux select-window -t spring:1
+
+    tmux attach-session -t spring
 }
 
 dotfiles() {
@@ -44,12 +49,6 @@ sop(){
     [ -n "$file" ] && okular "$file"
 }
 
-abm() {
-    local temp=$(mktemp)
-    echo "- [$1]($2)" | cat - ~/Documents/dotfiles/bookmarks.md > "$temp"
-    mv "$temp" ~/Documents/dotfiles/bookmarks.md
-}
-
 cdj() {
     cd ~
     local dir
@@ -58,29 +57,6 @@ cdj() {
     clear
     ls
     ccp
-}
-
-rj(){
-    javac $1 && java ${1%.*}
-}
-
-makejf(){
-    touch "$1.java"
-
-    if [[ "$2" == "--main" ]]; then
-        echo "
-public class $1{
-    public static void main(String[] args){
-
-    }
-}" > $1.java
-
-    else
-        echo "
-public class $1{
-
-}" > $1.java
-    fi
 }
 
 animated_wallpaper(){

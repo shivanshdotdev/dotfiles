@@ -7,8 +7,15 @@ return {
   config = function()
     vim.lsp.config("basedpyright", {})
     vim.lsp.config("jdtls", {})
+    vim.lsp.config("html", {})
+    vim.lsp.config("cssls", {})
+    vim.lsp.config("ts_ls", {})
+
     vim.lsp.enable("basedpyright")
     vim.lsp.enable("jdtls")
+    vim.lsp.enable("html", {})
+    vim.lsp.enable("cssls", {})
+    vim.lsp.enable("ts_ls", {})
 
     -- Keymaps when LSP attaches
     vim.api.nvim_create_autocmd("LspAttach", {
