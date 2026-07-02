@@ -1,2 +1,2 @@
 #!/bin/bash
-paplay /usr/share/sounds/freedesktop/stereo/bell.oga
+paplay ~/dotfiles/dunst/.config/dunst/bell.wav

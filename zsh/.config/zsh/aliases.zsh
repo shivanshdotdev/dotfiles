@@ -4,7 +4,6 @@ alias gtw="cd /mnt/windows/Users/shiva/Desktop"
 alias ctc="xclip -selection clipboard"
 alias ccp="pwd | ctc"
 
-alias fd="fdfind"
 alias ff="nvim -c 'Telescope find_files'"
 
 alias sleep="systemctl suspend"
@@ -19,9 +18,7 @@ alias ls='eza --icons --group-directories-first'
 alias ll='eza -lh --icons --git --group-directories-first'
 alias la="eza -alh --icons --group-directories-first"
 
-alias bat="batcat"
-
-alias find="fdfind | fzf"
+alias find="fd | fzf"
 alias gtn="cd ~/Documents/Obsidian-Notes/Programming/ && git status"
 alias javaprac="cd ~/Documents/Java-MOOC/Java-Programming-1"
 # Add an "alert" alias for long running commands.  Use like so:

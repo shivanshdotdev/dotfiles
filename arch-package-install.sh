@@ -1,6 +1,3 @@
-echo "Updating the system"
-sudo pacman -Syu
-
 echo "Installing the packages"
 sudo pacman -S --noconfirm \
   alacritty \
@@ -33,5 +30,6 @@ sudo pacman -S --noconfirm \
   xdotool \
   yazi \
   zathura \
-  zsh 
+  zsh \
+  
 
