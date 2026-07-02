@@ -1,2 +1,2 @@
 #!/bin/bash
-paplay ~/dotfiles/dunst/.config/dunst/bell.wav
+paplay ~/dotfiles/dunst/.config/dunst/bell.mp3

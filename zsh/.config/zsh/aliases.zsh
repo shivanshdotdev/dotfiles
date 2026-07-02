@@ -19,7 +19,7 @@ alias ll='eza -lh --icons --git --group-directories-first'
 alias la="eza -alh --icons --group-directories-first"
 
 alias find="fd | fzf"
-alias gtn="cd ~/Documents/Obsidian-Notes/Programming/ && git status"
+alias gtn="cd ~/Obsidian-Notes/Programming/ && git status"
 alias javaprac="cd ~/Documents/Java-MOOC/Java-Programming-1"
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

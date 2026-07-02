@@ -1,5 +1,5 @@
 # ENV
-export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
 export PATH="$JAVA_HOME/bin:$HOME/.local/bin:/snap/bin:$PATH"
 
 # Load custom configs
