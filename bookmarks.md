@@ -9,6 +9,7 @@
 - [visualising data structures and algorithms through animation - VisuAlgo](https://visualgo.net/en)
 - [Computer Fundamentals Tutorials](https://www.geeksforgeeks.org/computer-science-fundamentals/computer-fundamentals-tutorial/)
 - [Backend Development Path](https://www.boot.dev/paths/backend?tech=python-golang)
+- [After Spring Academy - 1](https://www.marcobehler.com/guides/spring-framework)
 
 ### Bookmarks
 - [dev.to](https://dev.to/)
@@ -27,6 +28,9 @@
 - [Things To Learn - Google Docs](https://docs.google.com/document/d/1WPOlqh9J17fi-yiK8XKqeyHCYvyplrTPT5qoI7LAtUY/edit?tab=t.0#heading=h.x0iib41pro1z)
 - [Google Pro Tip: Use Back-of-the-envelope-calculations to Choose the Best&nbsp;Design - High Scalability -](https://highscalability.com/google-pro-tip-use-back-of-the-envelope-calculations-to-choo/)
 - [Macro Behler Guides](https://www.marcobehler.com/)
+
+### Nerd Fun 
+- [xkcd](https://xkcd.com/)
 
 ### Learning
 - [Codédex | Learn Lua](https://www.codedex.io/lua)

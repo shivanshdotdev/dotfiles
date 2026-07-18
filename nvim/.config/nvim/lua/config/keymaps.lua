@@ -21,6 +21,15 @@ map("v", "<C-S-k>", ":t '< -1<CR>gv", { desc = "Duplicate selection up" })
 -- Open diagnostic float (standard behavior: closes on cursor move)
 map('n', '<leader>df', vim.diagnostic.open_float, { desc = "Toggle Diagnostic Float" })
 
+vim.keymap.set("n", "<leader>nw", function()
+    if vim.wo.wrap then
+        vim.wo.wrap = false
+        vim.wo.linebreak = false
+    else
+        vim.wo.wrap = true
+        vim.wo.linebreak = true
+    end
+end, { desc = "Toggle wrap and linebreak" })
 
 map("n", "<leader>do", function()
   vim.diagnostic.setloclist({ open = true })
