@@ -53,7 +53,7 @@ sddm-greeter --test-mode --theme /usr/share/sddm/themes/where-is-my-sddm
 
 ### Enabling the Service
 ```
-sudo systemctl enable sddm.service
+sudo systemctl disable gdm.service && sudo systemctl enable sddm.service
 ```
 
 ### theme.conf
