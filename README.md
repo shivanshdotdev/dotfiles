@@ -1,4 +1,4 @@
-Quick Clone
+### Quick Clone
 ```
 cd ~
 git clone https://github.com/shivanshdotdev/dotfiles.git
@@ -26,8 +26,8 @@ Logout the i3 and log back in.
 
 # Grub Theme
 
-sekiro-grub-theme: [Here](https://github.com/AbijithBalaji/sekiro_grub_theme)
-grub-of-tsushima: [Here](https://github.com/ivanimmanuel-dev/grub-of-tsushima)
+- sekiro-grub-theme: [Here](https://github.com/AbijithBalaji/sekiro_grub_theme)
+- grub-of-tsushima: [Here](https://github.com/ivanimmanuel-dev/grub-of-tsushima)
 
 # sddm
 ### Installation
@@ -57,7 +57,7 @@ sudo systemctl disable gdm.service && sudo systemctl enable sddm.service
 ```
 
 ### Theme 
-[Click Here](https://github.com/shivanshdotdev/dotfiles/sddm)
+[Click Here](https://github.com/shivanshdotdev/dotfiles/tree/master/sddm)
 
 # Plymouth
 
