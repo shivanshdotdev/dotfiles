@@ -15,6 +15,7 @@ return {
         "vim",
         "vimdoc",
         "bash",
+        "zsh",
       },
       highlight = { enable = true },
       indent = { enable = true },

@@ -17,6 +17,7 @@
 - [Classroom](https://classroom.google.com/w/ODU4OTA0MDA2ODk1/t/all)
 - [Python - Loops](https://www.tutorialspoint.com/python/python_loops.htm)
 - [Beej's Guides](https://beej.us/guide/)
+- [Startup's Funding Tracker](https://www.ipoplatform.com/best-startup-funding-india-list)
 
 ### Imp Docs
 - [Backend Developer Roadmap: What is Backend Development](https://roadmap.sh/backend)

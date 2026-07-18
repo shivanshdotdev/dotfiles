@@ -10,6 +10,11 @@ gcp(){
     git add . && git commit -m "$1" && git push
 }
 
+rj() {
+    javac "$1"
+    java "${1%.*}"
+}
+
 dsatime(){
     termdown $1 -a -e && notify-send -u critical "$1 Over" "If not done, Time to check for the hints"
 }

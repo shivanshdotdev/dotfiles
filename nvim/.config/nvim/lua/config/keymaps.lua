@@ -8,9 +8,7 @@ map("i", "jk", "<Esc>", { desc = "Exit insert mode" })
 map("n", "<leader>nh", ":nohlsearch<CR>", { desc = "Clear search highlights" })
 
 map("n", "<leader>w", "<cmd>w<CR>", { desc = "Save file" })
-map("n", "<leader>W", "<cmd>wq<CR>", { desc = "Save file and quit" })
 map("n", "<leader>q", "<cmd>q<CR>", { desc = "Quit" })
-map("n", "<leader>Q", "<cmd>q!<CR>", { desc = "Force quit" })
 
 -- Move text up and down
 map("v", "J", ":m '>+1<CR>gv=gv")
