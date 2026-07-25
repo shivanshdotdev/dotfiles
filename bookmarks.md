@@ -10,8 +10,8 @@
 - [Computer Fundamentals Tutorials](https://www.geeksforgeeks.org/computer-science-fundamentals/computer-fundamentals-tutorial/)
 - [Backend Development Path](https://www.boot.dev/paths/backend?tech=python-golang)
 - [After Spring Academy - 1](https://www.marcobehler.com/guides/spring-framework)
-
-### Bookmarks
+---
+## Bookmarks
 - [dev.to](https://dev.to/)
 - [Hackathons](https://devfolio.co/)
 - [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/)
@@ -20,7 +20,12 @@
 - [Beej's Guides](https://beej.us/guide/)
 - [Startup's Funding Tracker](https://www.ipoplatform.com/best-startup-funding-india-list)
 
-### Imp Docs
+## Java Tools 
+- [log4j](https://www.tutorialspoint.com/log4j/index.htm)
+- [JUnit](https://www.tutorialspoint.com/junit/index.htm)
+- [java.io Packages](https://www.tutorialspoint.com/java/io/index.htm)
+---
+## Imp Docs
 - [Backend Developer Roadmap: What is Backend Development](https://roadmap.sh/backend)
 - [SQL - Google Docs](https://docs.google.com/document/d/1UK6SRiAtQRPgJAxCNvHdYqTXYf99nGrjKlx-SmjX6aM/edit?tab=t.0#heading=h.2xs639d5wt6o)
 - [Java&amp; Spring Boot Roadmap - Google Docs](https://docs.google.com/document/d/1q0FCsHbkg1O8NNrc2ooF_9bGGfuWJ8pm8lbnE7nZvvQ/edit?tab=t.0)
@@ -29,36 +34,43 @@
 - [Google Pro Tip: Use Back-of-the-envelope-calculations to Choose the Best&nbsp;Design - High Scalability -](https://highscalability.com/google-pro-tip-use-back-of-the-envelope-calculations-to-choo/)
 - [Macro Behler Guides](https://www.marcobehler.com/)
 
-### Nerd Fun 
-- [xkcd](https://xkcd.com/)
-
-### Learning
+## Learning
 - [Codédex | Learn Lua](https://www.codedex.io/lua)
 - [Exercism](https://exercism.org/tracks)
 - [Bash exercises on Exercism](https://exercism.org/tracks/bash/exercises)
+---
+## Nerd Fun 
+- [xkcd](https://xkcd.com/)
+- [Hardware](https://www.tutorialspoint.com/computer_fundamentals/index.htm)
+- [MicroProcessor](https://www.tutorialspoint.com/microprocessor/index.htm)
+- [OS](https://www.tutorialspoint.com/operating_system/index.htm)
+- [Ethical Hacking](https://www.tutorialspoint.com/ethical_hacking/index.htm)
+- [Computer Networks](https://www.tutorialspoint.com/data_communication_computer_network/index.htm)
+- [IoT](https://www.tutorialspoint.com/internet_of_things/index.htm)
+- [HTTP](https://www.tutorialspoint.com/http/index.htm)
+- [Embedded Systems](https://www.tutorialspoint.com/embedded_systems/index.htmhttps://www.tutorialspoint.com/microservices_design_patterns/index.htm)
+- [MicroServices](https://www.tutorialspoint.com/microservices_design_patterns/index.htm)
 
-### Stuff To Read
+## Stuff To Read
 - [Code Crafters](https://codecrafters.io/)
 - [The Architecture of OSS Book | aosa books](https://aosabook.org/en/)
 - [Destroy All Softwares](https://www.destroyallsoftware.com/screencasts)
 - [Hypermedia Systems](https://hypermedia.systems/book/contents/)
 - [CyberSecurity mooc.fl](https://cybersecuritybase.mooc.fi/)
-
-### DSA
+---
+## DSA
 - [DSA Sheet by Love Babbar - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/#arrays)
 - [450 DSA Cracker](https://450dsa.com/array)
 - [DSA Patterns - Google Docs](https://docs.google.com/document/d/1Noc_h9uc41qlzA5WL-B8KrMzjpUSbSDMvDAwbaWKLrU/edit?tab=t.0)
 - [Data Structures Roadmap 3 months - Google Docs](https://docs.google.com/document/d/1jP2rsfk3a6hISQ7kMZ_nuh_gokd2Jmtif3O0IEUmWqc/edit?tab=t.0)
 
-### For Later
+## For Later
 - [Full Stack Open on mooc.fl](https://fullstackopen.com/en/)
 
-### Social Media
+## Social Media
 - [YT Studio](https://studio.youtube.com/channel/UCSPCgqeygz6My7Me7wiBSwg)
 - [Instagram](https://www.instagram.com/shivanshdotdev/)
 - [Facebook](https://www.facebook.com/profile.php?id=61588269033670)
 - [LinkedIN](https://www.linkedin.com/in/shivansh-shukla-07834a3b0/)
 - [Twitch](https://dashboard.twitch.tv/u/shivanshdotdev/home)
 - [GPRM : GitHub Profile ReadMe Maker](https://gprm.itsvg.in/)
-
-

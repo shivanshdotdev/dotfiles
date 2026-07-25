@@ -6,8 +6,6 @@ alias ccp="pwd | ctc"
 
 alias ff="nvim -c 'Telescope find_files'"
 
-alias sleep="systemctl suspend"
-
 alias editi3="cd ~/.config/i3/configurations/ && la"
 alias editzsh="cd ~/.config/zsh && la"
 alias mirror_display="xrandr --output HDMI-1 --same-as eDP-1"
@@ -17,6 +15,8 @@ alias run="python3"
 alias ls='eza --icons --group-directories-first'
 alias ll='eza -lh --icons --git --group-directories-first'
 alias la="eza -alh --icons --group-directories-first"
+
+alias sleep="i3lock && systemctl suspend"
 
 alias find="fd | fzf"
 alias gtn="cd ~/Obsidian-Notes/Programming/ && git status"
