@@ -14,6 +14,10 @@ return {
         preview = true,
         file_ignore_patterns = {
             "%.class$",
+            "build/",
+            "bin/",
+            ".git/"
+
         },
         buffer_previewer_maker = function(filepath, bufnr, opts)
           opts = opts or {}

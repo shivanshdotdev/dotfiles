@@ -20,10 +20,23 @@
 - [Beej's Guides](https://beej.us/guide/)
 - [Startup's Funding Tracker](https://www.ipoplatform.com/best-startup-funding-india-list)
 
+## Nerd Fun 
+- [xkcd](https://xkcd.com/)
+- [Hardware](https://www.tutorialspoint.com/computer_fundamentals/index.htm)
+- [MicroProcessor](https://www.tutorialspoint.com/microprocessor/index.htm)
+- [OS](https://www.tutorialspoint.com/operating_system/index.htm)
+- [Ethical Hacking](https://www.tutorialspoint.com/ethical_hacking/index.htm)
+- [Computer Networks](https://www.tutorialspoint.com/data_communication_computer_network/index.htm)
+- [IoT](https://www.tutorialspoint.com/internet_of_things/index.htm)
+- [HTTP](https://www.tutorialspoint.com/http/index.htm)
+- [Embedded Systems](https://www.tutorialspoint.com/embedded_systems/index.htmhttps://www.tutorialspoint.com/microservices_design_patterns/index.htm)
+- [MicroServices](https://www.tutorialspoint.com/microservices_design_patterns/index.htm)
+
 ## Java Tools 
 - [log4j](https://www.tutorialspoint.com/log4j/index.htm)
 - [JUnit](https://www.tutorialspoint.com/junit/index.htm)
 - [java.io Packages](https://www.tutorialspoint.com/java/io/index.htm)
+- [Baeldung](https://www.baeldung.com/)
 ---
 ## Imp Docs
 - [Backend Developer Roadmap: What is Backend Development](https://roadmap.sh/backend)
@@ -39,17 +52,11 @@
 - [Exercism](https://exercism.org/tracks)
 - [Bash exercises on Exercism](https://exercism.org/tracks/bash/exercises)
 ---
-## Nerd Fun 
-- [xkcd](https://xkcd.com/)
-- [Hardware](https://www.tutorialspoint.com/computer_fundamentals/index.htm)
-- [MicroProcessor](https://www.tutorialspoint.com/microprocessor/index.htm)
-- [OS](https://www.tutorialspoint.com/operating_system/index.htm)
-- [Ethical Hacking](https://www.tutorialspoint.com/ethical_hacking/index.htm)
-- [Computer Networks](https://www.tutorialspoint.com/data_communication_computer_network/index.htm)
-- [IoT](https://www.tutorialspoint.com/internet_of_things/index.htm)
-- [HTTP](https://www.tutorialspoint.com/http/index.htm)
-- [Embedded Systems](https://www.tutorialspoint.com/embedded_systems/index.htmhttps://www.tutorialspoint.com/microservices_design_patterns/index.htm)
-- [MicroServices](https://www.tutorialspoint.com/microservices_design_patterns/index.htm)
+## DSA
+- [DSA Sheet by Love Babbar - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/#arrays)
+- [450 DSA Cracker](https://450dsa.com/array)
+- [DSA Patterns - Google Docs](https://docs.google.com/document/d/1Noc_h9uc41qlzA5WL-B8KrMzjpUSbSDMvDAwbaWKLrU/edit?tab=t.0)
+- [Data Structures Roadmap 3 months - Google Docs](https://docs.google.com/document/d/1jP2rsfk3a6hISQ7kMZ_nuh_gokd2Jmtif3O0IEUmWqc/edit?tab=t.0)
 
 ## Stuff To Read
 - [Code Crafters](https://codecrafters.io/)
@@ -58,11 +65,6 @@
 - [Hypermedia Systems](https://hypermedia.systems/book/contents/)
 - [CyberSecurity mooc.fl](https://cybersecuritybase.mooc.fi/)
 ---
-## DSA
-- [DSA Sheet by Love Babbar - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/#arrays)
-- [450 DSA Cracker](https://450dsa.com/array)
-- [DSA Patterns - Google Docs](https://docs.google.com/document/d/1Noc_h9uc41qlzA5WL-B8KrMzjpUSbSDMvDAwbaWKLrU/edit?tab=t.0)
-- [Data Structures Roadmap 3 months - Google Docs](https://docs.google.com/document/d/1jP2rsfk3a6hISQ7kMZ_nuh_gokd2Jmtif3O0IEUmWqc/edit?tab=t.0)
 
 ## For Later
 - [Full Stack Open on mooc.fl](https://fullstackopen.com/en/)
