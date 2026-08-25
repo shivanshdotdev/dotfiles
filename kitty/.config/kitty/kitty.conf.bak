@@ -8,7 +8,7 @@ font_size 13
 # Transparency
 background_opacity 0.85
 
-# Enable blur
+# Enable blur (Wayland + compositor required like picom)
 background_blur 0
 
 # Terminal type
@@ -17,17 +17,10 @@ term xterm-256color
 # Performance
 enable_audio_bell no
 
-scrollback_lines 10000
-
 # Cursor
 cursor_shape block
-cursor_blink_interval 0
-sync_to_monitor yes
+
 # Padding
 window_padding_width 0
-
-
-line_height 1.1
-copy_on_select yes
 
 include themes/mocha.conf

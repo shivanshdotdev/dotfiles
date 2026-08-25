@@ -6,6 +6,14 @@ edit-espanso() {
     esac
 }
 
+function y() {
+    local tmp cwd; tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+    command yazi "$@" --cwd-file="$tmp"
+    IFS= read -r -d '' cwd < "$tmp"
+    [ "$cwd" != "$PWD" ] && [ -d "$cwd" ] && builtin cd -- "$cwd" || builtin true
+    command rm -f -- "$tmp"
+}
+
 gcp(){
     git add . && git commit -m "$1" && git push
 }
@@ -16,7 +24,7 @@ rj() {
 }
 
 lgbr(){
-     ddcutil --bus 3 setvcp 10 "$1"
+    ddcutil --bus 3 setvcp 10 "$1"
 }
 
 bookmarksToHtml(){
@@ -39,7 +47,7 @@ jnew() {
 
     cat > "$file" <<EOF
 public class $class {
-    
+
 }
 EOF
 }
@@ -52,6 +60,16 @@ dsa() {
     tmux select-window -t dsa:1
 
     tmux attach-session -t dsa
+}
+
+practice() {
+    tmux new-session -d -s practice -n 'nvim'
+
+    tmux new-window -t practice:2 -n 'terminal'
+
+    tmux select-window -t practice:1
+
+    tmux attach-session -t practice
 }
 
 spring(){
@@ -99,3 +117,9 @@ animated_wallpaper(){
 }
 
 
+cc() {
+    local file="$1"
+    local output="${file%.c}.out"
+
+    gcc "$file" -o "$output" && "./$output"
+}

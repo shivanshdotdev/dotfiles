@@ -19,6 +19,7 @@
 - [Python - Loops](https://www.tutorialspoint.com/python/python_loops.htm)
 - [Beej's Guides](https://beej.us/guide/)
 - [Startup's Funding Tracker](https://www.ipoplatform.com/best-startup-funding-india-list)
+- [Nice Github Repos](https://www.linkedin.com/posts/subhash-tiwari-33a50324_if-you-want-to-become-goat-level-with-backend-share-7488972459879350274-7snF/)
 
 ## Nerd Fun 
 - [xkcd](https://xkcd.com/)
