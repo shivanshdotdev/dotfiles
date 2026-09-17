@@ -47,6 +47,7 @@ return {
         },
       },
       integrations = {
+        treesitter = true, -- CRITICAL: Enables granular AST highlighting
         cmp = true,
         gitsigns = true,
         nvimtree = true,
@@ -55,9 +56,20 @@ return {
         },
       },
       custom_highlights = function(colors)
-          return {
-              LineNr = { fg = colors.red },
-          }
+        return {
+          LineNr = { fg = colors.red },
+
+          -- Matches bat's high-contrast token pops
+          ["@type.builtin.c"] = { fg = colors.sapphire, style = { "bold" } }, -- int, bool, void
+          ["@keyword.control.c"] = { fg = colors.mauve },                    -- if, for, while, return
+          ["@function.call.c"] = { fg = colors.blue },                      -- printf, scanf
+          ["@string.c"] = { fg = colors.green },                            -- format strings
+
+          -- Red operators and delimiters like bat
+          ["@operator"] = { fg = colors.red, style = { "bold" } },          -- =, ==, +, -, <, >, &
+          ["@operator.c"] = { fg = colors.red, style = { "bold" } },
+          ["@punctuation.delimiter"] = { fg = colors.red },                 -- ;, ,
+        }
       end,
     })
 
@@ -76,5 +88,5 @@ return {
         })
       end,
     })
-end,
-}   
+  end,
+}

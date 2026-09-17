@@ -19,9 +19,27 @@ vim.g.loaded_netrwPlugin = 1
 -- optionally enable 24-bit colour
 vim.opt.termguicolors = true
 
--- empty setup using defaults
-require("nvim-tree").setup()
+local mouse_scrolling = false
 
+vim.on_key(function(key)
+  local scroll_up = vim.keycode("<ScrollWheelUp>")
+  local scroll_down = vim.keycode("<ScrollWheelDown>")
+
+  if key == scroll_up or key == scroll_down then
+    mouse_scrolling = true
+    vim.schedule(function()
+      mouse_scrolling = false
+    end)
+  end
+end)
+
+vim.api.nvim_create_autocmd("CursorMoved", {
+  callback = function()
+    if vim.bo.buftype == "" and vim.fn.mode() == "n" and not mouse_scrolling then
+      vim.cmd("normal! zz")
+    end
+  end,
+})
 -- OR setup with a config
 
 ---@type nvim_tree.config

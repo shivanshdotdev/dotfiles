@@ -1,25 +1,14 @@
 return {
-  "nvim-treesitter/nvim-treesitter",
-  build = ":TSUpdate",
-  lazy = false;
-  -- tag = "v0.9.3",
-  branch = "main",
-  config = function()
-    require("nvim-treesitter").setup({
-      ensure_installed = {
-        "java",
-        "python",
-        "markdown",
-        "markdown_inline",
-        "lua",
-        "vim",
-        "vimdoc",
-        "bash",
-        "zsh",
-      },
-      highlight = { enable = true },
-      indent = { enable = true },
-      auto_install = true,
-    })
-  end,
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+    lazy = false,
+    branch = "main",
+    config = function()
+        -- Enable Treesitter highlighting natively on file open
+        vim.api.nvim_create_autocmd("FileType", {
+            callback = function()
+                pcall(vim.treesitter.start)
+            end,
+        })
+    end,
 }

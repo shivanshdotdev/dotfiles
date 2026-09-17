@@ -62,10 +62,15 @@ dsa() {
     tmux attach-session -t dsa
 }
 
-practice() {
+prac() {
+    
+    cdj
+
     tmux new-session -d -s practice -n 'nvim'
 
     tmux new-window -t practice:2 -n 'terminal'
+
+    tmux send-keys -t practice:2 'ls' C-m
 
     tmux select-window -t practice:1
 
@@ -121,5 +126,5 @@ cc() {
     local file="$1"
     local output="${file%.c}.out"
 
-    gcc "$file" -o "$output" && "./$output"
+    gcc "$file" -o "./bin/$output" && "./bin/$output"
 }
