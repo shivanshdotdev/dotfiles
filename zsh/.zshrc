@@ -22,4 +22,3 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 # Starship
 eval "$(starship init zsh)"
-

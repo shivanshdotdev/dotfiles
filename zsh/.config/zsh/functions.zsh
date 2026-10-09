@@ -27,6 +27,10 @@ lgbr(){
     ddcutil --bus 3 setvcp 10 "$1"
 }
 
+lgct(){
+    ddcutil --bus 3 setvcp 12 "$1"
+}
+
 bookmarksToHtml(){
     cat ~/dotfiles/style.html > ~/github/bookmarks/index.html 
 
@@ -128,3 +132,21 @@ cc() {
 
     gcc "$file" -o "./bin/$output" && "./bin/$output"
 }
+
+cpc() {
+    local file="$1"
+
+    if [[ -z "$file" ]]; then
+        file=$(
+            fd -e cpp -t f -x stat --printf '%Y\t%n\n' |
+            sort -nr |
+            cut -f2- |
+            fzf --height 100% --reverse
+        ) || return
+    fi
+
+    local output="${file%.cpp}.out"
+
+    g++ "$file" -o "./bin/$output" && "./bin/$output"
+}
+
