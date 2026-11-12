@@ -18,11 +18,6 @@ gcp(){
     git add . && git commit -m "$1" && git push
 }
 
-rj() {
-    javac "$1"
-    java "${1%.*}"
-}
-
 lgbr(){
     ddcutil --bus 3 setvcp 10 "$1"
 }
@@ -51,9 +46,24 @@ jnew() {
 
     cat > "$file" <<EOF
 public class $class {
-
+    public static void main(String[] args){
+        
+    }
 }
 EOF
+}
+
+tmuxhere() {
+
+    tmux new-session -d -s archbtw -n 'nvim'
+
+    tmux new-window -t archbtw:2 -n 'terminal'
+
+    tmux send-keys -t archbtw:2 'ls' C-m
+
+    tmux select-window -t archbtw:1
+
+    tmux attach-session -t archbtw
 }
 
 dsa() {
@@ -66,34 +76,22 @@ dsa() {
     tmux attach-session -t dsa
 }
 
-prac() {
-    
-    cdj
+cfs() {
 
-    tmux new-session -d -s practice -n 'nvim'
+    tmux new-session -d -s cf -c ~/github/codeforcesQuestions -n 'nvim'
 
-    tmux new-window -t practice:2 -n 'terminal'
+    tmux new-window -t cf:2 -c ~/github/codeforcesQuestions -n 'terminal'
 
-    tmux send-keys -t practice:2 'ls' C-m
+    tmux send-keys -t cf:2 'ls' Enter
+    tmux send-keys -t cf:1 'nvim' Enter
 
-    tmux select-window -t practice:1
+    tmux select-window -t cf:1
 
-    tmux attach-session -t practice
+    tmux attach-session -t cf
 }
 
-spring(){
-    TARGET_DIR=~/spring
 
-    tmux new-session -d -s spring -c "$TARGET_DIR" -n 'nvim'
 
-    tmux new-window -t spring:2 -c "$TARGET_DIR" -n 'server'
-
-    tmux split-window -h -c $TARGET_DIR
-
-    tmux select-window -t spring:1
-
-    tmux attach-session -t spring
-}
 
 dotfiles() {
     cp -r $1 ~/Documents/dotfiles/
@@ -110,7 +108,6 @@ cdJ() {
     cd "$dir"
     clear
     ls
-    ccp
 }
 
 cdj() {
@@ -118,7 +115,6 @@ cdj() {
     dir=$(fd -t d | fzf) || return
     cd "$dir"
     ls
-    ccp
 }
 
 animated_wallpaper(){
@@ -150,3 +146,23 @@ cpc() {
     g++ "$file" -o "./bin/$output" && "./bin/$output"
 }
 
+
+jc() {
+    local file="$1"
+
+    if [[ -z "$file" ]]; then
+        file=$(
+            fd -e java -t f -x stat --printf '%Y\t%n\n' |
+            sort -nr |
+            cut -f2- |
+            fzf --height 100% --reverse
+        ) || return
+    fi
+
+    local output="${file##*/}"
+    output="${output%.java}"
+
+    mkdir -p bin
+
+    javac -d bin "$file" && java -cp bin "$output"
+}

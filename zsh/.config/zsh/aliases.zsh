@@ -25,10 +25,3 @@ alias javaprac="cd ~/Documents/javaprac/"
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-poweroff() { echo "zsh: command not found: poweroff"; }
-shutdown() { echo "zsh: command not found: shutdown"; }
-halt() { echo "zsh: command not found: halt"; }
-reboot() { echo "zsh: command not found: reboot"; }
-
-alias byelove='sudo systemctl poweroff'
-alias comebacklove='sudo systemctl reboot'
