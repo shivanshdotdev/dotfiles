@@ -32,7 +32,8 @@ matches:
     replace: "💀"
   - trigger: ":pray"
     replace: "🙏 "
-
+  - trigger: ":cold"
+    replace: "😅 "
 
   # Print the current date
   - trigger: ":date"
